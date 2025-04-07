@@ -27,7 +27,7 @@ URL: http://152.53.53.245:8000/docs
 
    ```bash
    git clone https://github.com/ReynierGo/hm-backend.git
-   cd hm-etl
+   cd hm-backend
 
 2. Para ejecutar el contenedor docker
    ```bash
