@@ -22,10 +22,6 @@ Antes de comenzar, asegúrate de tener los siguientes requisitos:
 ### Swagger Docs
 URL: http://152.53.53.245:8000/docs
 
-### Docker
-docker build -t hm-backend .
-docker run -d -p 8000:8000 hm-backend
-
 ## Instalación 🛠️
 1. Clona el repositorio:
 
@@ -33,6 +29,7 @@ docker run -d -p 8000:8000 hm-backend
    git clone https://github.com/ReynierGo/hm-backend.git
    cd hm-etl
 
-2. En caso ejecutar docker
-    docker build -t hm-backend .
-    docker run -d -p 8000:8000 hm-backend
+2. Para ejecutar el contenedor docker
+   ```bash
+   docker build -t hm-backend .
+   docker run -d -p 8000:8000 hm-backend
