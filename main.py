@@ -1,5 +1,6 @@
 import logging
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import create_engine, Table, MetaData
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.exc import SQLAlchemyError
@@ -27,6 +28,15 @@ app = FastAPI(
         "name": "Reynier Gonzalez",
         "email": "reynierabdiel@icloud.com",
     },
+)
+
+# Permitir todos los origenes.
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], 
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # Configuracion de MySQL + SQLAlchemy
