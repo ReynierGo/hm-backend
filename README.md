@@ -21,7 +21,7 @@ Antes de comenzar, asegúrate de tener los siguientes requisitos:
 
 ## Swagger Docs 📋
 
-URL: http://152.53.53.245:8000/docs
+URL: http://152.53.88.66:8000/docs
 
 ## Instalación 🛠️
 1. Clona el repositorio:
