@@ -6,5 +6,5 @@ class Config:
     # Variables ENV
     DATABASE_URL = os.getenv(
         "DATABASE_URL", 
-        "mysql+pymysql://root:Raynier1205*@152.53.53.245:3306/DLX_HM_DB"
+        "mysql+pymysql://hm_testing:rv1EknPdH5DYi2g@152.53.88.66:3306/DLX_HM_DB"
     )
