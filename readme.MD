@@ -19,7 +19,8 @@ Antes de comenzar, asegúrate de tener los siguientes requisitos:
 - **MySQL**. ![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-blue?logo=mysql&logoColor=white)
 - Dependencias del proyecto.
 
-### Swagger Docs
+## Swagger Docs 📋
+
 URL: http://152.53.53.245:8000/docs
 
 ## Instalación 🛠️
